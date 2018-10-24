@@ -26,6 +26,11 @@
 }
 
 .main {
+  background-color: grey;
+  color: white;
+  font-size: 50px;
+  margin: auto;
+  text-align: center;
 }
 
 .footer {

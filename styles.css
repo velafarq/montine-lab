@@ -98,6 +98,9 @@ figcaption {
   align-items: left;
   padding-top: 15px;
 }
+.who__video {
+  margin-top: 30px;
+}
 
 .who__project-img {
   width: 100%;

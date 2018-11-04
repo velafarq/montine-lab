@@ -15,6 +15,9 @@
 </head>
 
 <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
     <header class="header" role="banner">
 
         <nav class="header__nav">
@@ -49,9 +52,76 @@
     <main class="main">
         <h1 class="main__title">Who We Are</h1>
         <section class="who">
+            <div class="who__block__group">
+                <img src="./assets/people/montine-lab-group.jpg" alt="Montine Lab Group Photo" class="who__group-img">
+                <ul class="who__list">
+                    <li>
+                        <a href="#montine" class="who__link" id="test">Thomas Montine</a>
+                    </li>
+                    <li>
+                        <a href="#wawro " class="who__link ">Adam M. Wawro</a>
+                    </li>
+                    <li>
+                        <a href="#gajera " class="who__link ">Chandresh Gajera</a>
+                    </li>
+                    <li>
+                        <a href="#mrdjen " class="who__link ">Dunja Mrdjen</a>
+                    </li>
+                    <li>
+                        <a href="#fox " class="who__link ">Edward J. Fox</a>
+                    </li>
+                    <li>
+                        <a href="#lucot " class="who__link ">Katherine L. Lucot</a>
+                    </li>
+                    <li>
+                        <a href="#fernandez " class="who__link ">Rosemary Fernandex</a>
+                    </li>
+                    <li>
+                        <a href="#corces " class="who__link ">Ryan Corces</a>
+                    </li>
+                    <li>
+                        <a href="#dao " class="who__link ">Mai Dao</a>
+                    </li>
+                    <li>
+                        <a href="#channappa " class="who__link ">Divya Channappa</a>
+                    </li>
+                    <li>
+                        <a href="#lesniak " class="who__link ">Robert Kazimierz Lesniak</a>
+                    </li>
+                    <li>
+                        <a href="#lang " class="who__link ">Anna Lena Lang</a>
+                    </li>
+                </ul>
+            </div>
 
 
-            <div class="who__block">
+            <div class="who__block" id="montine">
+                <div>
+                    <p>
+                        <a class="who__link" href="https://profiles.stanford.edu/thomas-montine" target="_blank">Thomas Montine</a> | Principal Investigator
+                    </p>
+                    <p>
+                        <a href="http://med.stanford.edu/adrc/neuropath.html" class="who__link" target="_blank">Stanford Alzheimer's Disease Research Center</a>
+                    </p>
+                    <p>
+                        <a href="https://www.ninds.nih.gov/Current-Research/Focus-Research/Focus-Parkinsons-Disease/Udall-Centers/Stanford-University"
+                            class="who__link" target="_blank">Stanford Udall Center</a>
+                    </p>
+                    <p>PhD in Pharmacology from the University of Rochester, New York, USA
+                    </p>
+                    <p>MD and CM from McGill University, Montreal, Quebec, Canada
+                    </p>
+                    <p>BA in Chemistry from Columbia University, New York, USA
+                    </p>
+                    <p class="who__blurb">
+                    </p>
+
+                </div>
+
+
+            </div>
+
+            <div class="who__block" id="wawro">
                 <div>
                     <p>
                         <a class="who__link" href="https://profiles.stanford.edu/adam-wawro?tab=bio" target="_blank">Adam M. Wawro</a> | Postdoctoral Fellow
@@ -65,7 +135,8 @@
                         fluid. He is also responsible for LC-MS analyses for other ongoing projects in the lab.
                     </p>
                     <figure>
-                        <img src="./assets/synaptosome_scheme_Adam.jpg" class="who__project-img" alt="Adam M. Waro - Synaptosome Workflow Scheme">
+                        <img src="./assets/projects/synaptosome_scheme_Adam.jpg" class="who__project-img" alt="Adam M. Waro -
+                    Synaptosome Workflow Scheme">
                         <figcaption>Synaptosome Workflow Scheme</figcaption>
                     </figure>
                 </div>
@@ -75,7 +146,7 @@
             </div>
 
 
-            <div class="who__block">
+            <div class="who__block" id="gajera">
                 <div>
                     <p>
                         <a class="who__link" href="https://profiles.stanford.edu/chandresh-gajera" target="_blank">Chandresh Gajera</a> | Staff Scientist
@@ -84,7 +155,7 @@
                         Germany
                     </p>
                     <p>MTech in (Bio. Sci. and Bio Eng.) from Indian Institute of Technology, Kanpur, India</p>
-                    <p>BPharm in….. from L. M. College of Pharmacy, Gujarat University, India</p>
+                    <p>BPharm from L. M. College of Pharmacy, Gujarat University, India</p>
                     <p class="who__blurb">Chandresh works on neural stem cell biology and neurodegenerative disease modelling using in vivo and
                         cell based quantitative bioassays. He also uses single synaptosome mass cytometry to search for early
                         biomarkers to detect Alzheimer's and Parkinson’s disease.
@@ -98,11 +169,15 @@
             </div>
 
 
-            <div class="who__block">
+            <div class="who__block" id="mrdjen">
                 <div>
                     <p>
-                        <a class="who__link" href="https://profiles.stanford.edu/dunja-mrdjen" target="_blank">Dunja Mrdjen</a> | Postdoctoral Fellow
+                        <a class="who__link" href="https://profiles.stanford.edu/dunja-mrdjen" target="_blank">Dunja Mrdjen</a> | Postdoctoral Fellow |
+                        <a href="https://twitter.com/dunja_mrdjen" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
                     </p>
+
                     <p>PhD in Immunology from University of Zurich, Switzerland</p>
                     <p>MSc in Clinical Science & Immunology, University of Cape Town, South Africa
                     </p>
@@ -119,11 +194,22 @@
                         <i>Immunity</i>
                         <a class="who__link" href="https://www.cell.com/immunity/fulltext/S1074-7613(18)30032-3" target="_blank">here</a>.
                     </p>
+
+                    <div class="who__project-img__block">
+                        <figure>
+                            <img src="./assets/projects/GFAP_Iba1_CD31_HH3_labeled.jpg" class="who__project-img" alt="">
+                            <figcaption>SGFAP Iba1 CD31 HH3</figcaption>
+                        </figure>
+                        <figure>
+                            <img src="./assets/projects/S100b_MAP2_HH3_labeled.jpg" class="who__project-img" alt="">
+                            <figcaption>S100b MAP2 HH3</figcaption>
+                        </figure>
+                    </div>
                 </div>
                 <img src="./assets/people/dunja-mrdjen.jpg" alt="Dunja Mrdjen" class="who__img">
             </div>
 
-            <div class="who__block">
+            <div class="who__block" id="fox">
                 <div>
                     <p>
                         <span class="who__name-span">Edward J. Fox</span> | Staff Scientist
@@ -148,7 +234,7 @@
             </div>
 
 
-            <div class="who__block">
+            <div class="who__block" id="lucot">
                 <div>
                     <p>
                         <a class="who__link" href="https://profiles.stanford.edu/katherine-lucot" target="_blank">Katherine (Katie) L. Lucot</a> | Postdoctoral Fellow
@@ -170,10 +256,13 @@
             </div>
 
 
-            <div class="who__block">
+            <div class="who__block" id="corces">
                 <div>
                     <p>
-                        <span class="who__name-span">Ryan Corces</span> | Postdoctoral Fellow
+                        <span class="who__name-span">Ryan Corces</span> | Postdoctoral Fellow |
+                        <a href="https://twitter.com/doctorcorces" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
                     </p>
                     <p>PhD in Cancer Biology from Stanford University, CA, USA</p>
                     <p>BASc in Molecular Biology from Princeton University, NJ, USA
@@ -191,7 +280,7 @@
 
             </div>
 
-            <div class="who__block">
+            <div class="who__block" id="fernandez">
                 <div>
                     <p>
                         <span class="who__name-span">Rosemary Fernandez</span> | Lab Manager
@@ -209,7 +298,7 @@
             </div>
 
 
-            <div class="who__block">
+            <div class="who__block" id="bharadwaj">
                 <div>
                     <p>
                         <span class="who__name-span">Anusha Bharadwaj</span> | Life Science Research Professional II
@@ -226,20 +315,79 @@
                         at the Stanford Alzheimer’s Disease Research Center (ADRC) on a CSF biomarker discovery project and
                         she contributes to the Parkinson’s Progression Markers Initiative (PPMI).
                     </p>
-                    <figure>
-                        <img src="./assets/synaptosome_scheme_Adam.jpg" class="who__project-img" alt="Adam M. Waro - Synaptosome Workflow Scheme">
-                        <figcaption>Synaptosome Workflow Scheme</figcaption>
-                    </figure>
+
                 </div>
 
-                <img src="./assets/people/adam-m-wawro.jpg" alt="Adam M. Wawro" class="who__img">
+                <img src="./assets/people/anusha-bharadwaj.jpg" alt="Anusha Bharadwaj" class="who__img">
 
             </div>
 
+            <div class="who__block" id="dao">
+                <div>
+                    <p>
+                        <span class="who__name-span">Mai Dao</span> | Life Science Research Professional II
+                    </p>
+
+                    <p class="who__blurb">Mai is conducting proteinopathy studies through the use of immunohistochemistry techniques. She is interested
+                        in the protein changes in the brain in patients who have been screened for Alzheimer’s disease and
+                        Parkinson’s disease, and how these changes correlate to cognitive deficits.
+                    </p>
+
+                </div>
+
+                <img src="./assets/people/mai-dao.jpg" alt="Mai Dao " class="who__img">
+
+            </div>
+
+            <div class="who__block" id="channappa">
+                <div>
+                    <p>
+                        <span class=" who__name-span">Divya Channappa</span> | Stanford ADRC Project Coordinator
+                    </p>
+                    <p>MS in Molecular Microbiology and Immunology from University of Southern California, Los Angeles, USA</p>
+                    <p>BS in Industrial Biotechnology, Anna University, India</p>
+                    <p class="who__blurb">Divya Channappa worked as a research associate for 6 years in the Department of Molecular Imaging and
+                        Immunology, Beckman Research Institute, Duarte, CA. She has extensive experience in antibody engineering
+                        and yeast surface display for protein engineering. At Stanford, she has been involved in processing
+                        samples, maintaining biospecimen databases and coordinating ADRC Neuropathology and Biospecimens
+                        Core over the past 3 years. She helps the core maintain an archive of research tissues from brain
+                        autopsies. She also helps ADRC collaborators with research involving genomic DNA by using molecular
+                        biology techniques.
+                    </p>
+                </div>
+
+                <img src="./assets/people/divya-channappa.jpg" alt="Divya Channappa" class="who__img">
+            </div>
+
+            <div class="who__block" id="lesniak">
+                <div>
+                    <p>
+                        <a class="who__link" href="https://profiles.stanford.edu/robert-lesniak" target="_blank">Robert Kazimierz Lesniak</a>
+                    </p>
+                    <p>PhD from the University of Oxford</p>
+                    <p>MS from the University of Bristol</p>
+
+                    <p class="who__blurb">
+                    </p>
+                </div>
+                <img src="./assets/people/robert-kazimierz-lesniak.jpg" alt="Robert Kazimierz Lesniak" class="who__img">
+            </div>
+
+            <!-- <div class="who__block " id="lang ">
+                <div>
+                    <p>
+                        <span class=" who__name-span ">Anna Lena Lang</span> |
+                    </p>
+
+                    <p class="who__blurb ">
+                    </p>
+                </div>
+            </div> -->
+
         </section>
     </main>
-    <footer class=" footer "></footer>
-    <script src="./index.js "></script>
+    <footer class="footer"></footer>
+    <script src="./index.js"></script>
 </body>
 
 </html>

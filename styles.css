@@ -11,11 +11,43 @@ body {
   min-height: 100vh;
   margin: auto;
 }
+
+.fa-twitter {
+  color: #1ca1f2;
+}
 .who {
   display: flex;
   flex-direction: column;
   margin-left: 10px;
   margin-right: 10px;
+  justify-content: space-between;
+}
+
+.who:last-child {
+  margin-bottom: 25px;
+}
+
+.who__group-img {
+  width: 100%;
+  max-width: 800px;
+  height: 100%;
+
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.who__list {
+  margin: 0;
+
+  flex: 1;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+}
+
+.who__list li {
+  padding: 5px;
 }
 
 .who p {
@@ -24,11 +56,23 @@ body {
 .who__blurb {
   margin-top: 10px;
 }
+
 .who__block {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+}
+.who__block__group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
   margin-top: 30px;
+  justify-content: left;
+
+  margin-bottom: 20px;
 }
 
 .who__link {
@@ -47,19 +91,30 @@ figcaption {
   font-size: 12px;
   font-style: italic;
 }
+
+.who__project-img__block {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  padding-top: 15px;
+}
+
 .who__project-img {
   width: 100%;
   max-width: 400px;
   height: auto;
+  padding-right: 10px;
 }
 
 .who__img {
   width: 100%;
+  max-width: 300px;
   height: 100%;
   flex: 1;
   margin-top: 20px;
   border: 1px solid #ddd;
   border-radius: 4px;
+  border-radius: 50%;
   padding: 5px;
 }
 
@@ -107,6 +162,7 @@ figcaption {
   display: flex;
   font-size: 30px;
   cursor: pointer;
+  color: white;
 }
 
 .header__nav {
@@ -178,8 +234,8 @@ figcaption {
 }
 
 .home-body {
-  background: url("./assets/Brain_processed_Fotor-stain.jpg") no-repeat center
-    center fixed;
+  background: url("./assets/Brain_processed_multi-cream_bckg_Fotor.jpg")
+    no-repeat center center fixed;
   /* background-image: url("./assets/Brain_processed_cream_bckg_sharpened_Fotor.jpg"); */
 
   -webkit-background-size: cover;
@@ -206,9 +262,40 @@ figcaption {
   color: white;
 }
 
+/* scroll to top btn */
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgb(131, 131, 131);
+  color: white;
+  cursor: pointer;
+  padding: 5px 10px 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+#myBtn:hover {
+  background-color: #f5805c;
+}
+
 @media only screen and (min-width: 600px) {
   .who__block {
     flex-direction: row;
+  }
+
+  .who__list {
+    margin-left: 20px;
   }
 
   .who__img {
@@ -224,6 +311,12 @@ figcaption {
 
   .header__nav__list {
     display: flex;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .who__block__group {
+    flex-direction: row;
   }
 }
 

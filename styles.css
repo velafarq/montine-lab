@@ -150,7 +150,6 @@ body {
 }
 
 .home-body {
-  background-color: #292d3f;
   background: url("./assets/Brain_processed_multi-cream_bckg_Fotor.jpg")
     no-repeat center center fixed;
   /* background-image: url("./assets/Brain_processed_cream_bckg_sharpened_Fotor.jpg"); */
@@ -167,6 +166,7 @@ body {
   justify-content: center;
   flex: 1;
   text-align: center;
+  background-color: #292d3f;
 }
 .home__site-name__title {
   font-size: 50px;

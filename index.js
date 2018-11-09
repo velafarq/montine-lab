@@ -1,23 +1,12 @@
 $(function() {
   $(".menu-bars").click(function() {
-    $(".header__nav__list").toggleClass("collapse-menu");
+    $(".header__nav__list")
+      .toggleClass("collapse-menu")
+      .toggleClass("header-collapse");
+
+    $(".menu-bars").toggleClass("menu-bars-close");
   });
 });
-
-// $('a[href^="#"]').on("click", function(event) {
-//   var target = $(this.getAttribute("href"));
-//   if (target.length) {
-//     event.preventDefault();
-//     $("html, body")
-//       .stop()
-//       .animate(
-//         {
-//           scrollTop: target.offset().top
-//         },
-//         1000
-//       );
-//   }
-// });
 
 window.onscroll = function() {
   scrollFunction();

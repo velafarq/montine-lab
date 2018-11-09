@@ -6,6 +6,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   color: #292d3f;
+
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -149,6 +150,7 @@ body {
 }
 
 .home-body {
+  background-color: #292d3f;
   background: url("./assets/Brain_processed_multi-cream_bckg_Fotor.jpg")
     no-repeat center center fixed;
   /* background-image: url("./assets/Brain_processed_cream_bckg_sharpened_Fotor.jpg"); */

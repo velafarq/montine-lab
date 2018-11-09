@@ -148,6 +148,13 @@ body {
   font-size: 1.5em;
   margin-left: 10px;
 }
+.home-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  text-align: center;
+}
 
 .home-body {
   background: url("./assets/Brain_processed_multi-cream_bckg_Fotor.jpg")
@@ -160,14 +167,6 @@ body {
   background-size: cover;
 }
 
-.home-main {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  flex: 1;
-  text-align: center;
-  background-color: #292d3f;
-}
 .home__site-name__title {
   font-size: 50px;
   color: white;

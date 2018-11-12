@@ -1,68 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./styles.css">
-    <link rel='shortcut icon' type='image/png' href='./favicon.png' />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
-        crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="shortcut icon" type="image/png" href="./favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+      integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Montine Lab | Publications</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header class="header" role="banner">
+      <h1 class="header__site-name nav-item collapse-title">Montine Lab</h1>
+      <nav class="header__nav">
+        <div class="menu-bars">
+          <div class="menu-bar"></div>
+          <div class="menu-bar"></div>
+          <div class="menu-bar"></div>
+        </div>
 
-        <nav class="header__nav">
-            <div class="menu-bars">
-                <i class="fas fa-bars"></i>
-            </div>
-            <ul class="header__nav__list">
-                <li class="header__nav__item">
-                    <a href="./index.html" role='button' class="header__site-name nav-item">Montine Lab</a>
-                </li>
-                <li class="header__nav__item">
-                    <a href="./index.html" role="button" class="nav-item">Home</a>
-                </li>
-                <li class="header__nav__item">
-                    <a href="./what-we-do.html" role="button" class="nav-item">What We Do</a>
-                </li>
-                <li class="header__nav__item">
-                    <a href="./who-we-are.html" role="button" class="nav-item">Who We Are</a>
-                </li>
-                <li class="header__nav__item">
-                    <a href="./publications.html" role="button" class="nav-item">Publications</a>
-                </li>
-                <li class="header__nav__item">
-                    <a href="./contact.html" role="button" class="nav-item">Contact Us</a>
-                </li>
-                <li class="header__nav__item">
-                    <a href="./alumni.html" role="button" class="nav-item">Alumni</a>
-                </li>
-            </ul>
-        </nav>
+        <ul class="header__nav__list" id="navigation">
+          <li class="header__nav__item">
+            <a
+              href="./index.html"
+              role="button"
+              class="header__site-name nav-item"
+              >Montine Lab</a
+            >
+          </li>
+          <li class="header__nav__item">
+            <a href="./index.html" role="button" class="nav-item">Home</a>
+          </li>
+          <li class="header__nav__item">
+            <a href="./what-we-do.html" role="button" class="nav-item"
+              >What We Do</a
+            >
+          </li>
+          <li class="header__nav__item">
+            <a href="./who-we-are.html" role="button" class="nav-item"
+              >Who We Are</a
+            >
+          </li>
+          <li class="header__nav__item">
+            <a href="./publications.html" role="button" class="nav-item"
+              >Publications</a
+            >
+          </li>
+          <li class="header__nav__item">
+            <a href="./contact.html" role="button" class="nav-item"
+              >Contact Us</a
+            >
+          </li>
+          <li class="header__nav__item">
+            <a href="./alumni.html" role="button" class="nav-item">Alumni</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <main class="main">
-        <h1 class="main__title">Publications</h1>
-        <section class="publications">
-            <p>A complete list of published work can be found on
-                <a href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Montine+TJ%5BAU%5D" target="_blank" class="underline__link">Pubmed.</a>
-
-            </p>
-        </section>
-
+      <h1 class="main__title">Publications</h1>
+      <section class="publications">
+        <p>
+          A complete list of published work can be found on
+          <a
+            href="https://www.ncbi.nlm.nih.gov/pubmed/?term=Montine+TJ%5BAU%5D"
+            target="_blank"
+            class="underline__link"
+            >Pubmed.</a
+          >
+        </p>
+      </section>
     </main>
     <footer class=" footer ">
-        <p class="footer__copyright ">&copy; 2018 Montine Lab</p>
-        <div class="footer__address ">
-            <p>The Montine Lab, Department of Pathology, 300 Pasteur Dr Rm L216, Stanford CA 94305</p>
-        </div>
+      <p class="footer__copyright ">&copy; 2018 Montine Lab</p>
+      <div class="footer__address ">
+        <p>
+          The Montine Lab, Department of Pathology, 300 Pasteur Dr Rm L216,
+          Stanford CA 94305
+        </p>
+      </div>
     </footer>
     <script src="./index.js "></script>
-</body>
-
+  </body>
 </html>

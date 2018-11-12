@@ -254,6 +254,38 @@ body {
   justify-content: space-between;
 }
 
+.alumni {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.alumni__block {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  justify-content: center;
+}
+
+.alumni__img {
+  width: 100%;
+  max-width: 250px;
+  height: 100%;
+  flex: 1;
+  margin-top: 20px;
+  /* border: 1px solid #ddd; */
+  /* border-radius: 4px; */
+  /* border-radius: 50%; */
+  padding: 5px;
+  align-items: center;
+}
+
+.alumni__name {
+  font-weight: 700;
+  /* text-align: center; */
+}
+
 .who:last-child {
   margin-bottom: 25px;
 }
@@ -381,12 +413,12 @@ figcaption {
 }
 
 /* alumni */
-.alumni {
+/* .alumni {
   display: flex;
   flex-direction: column;
   margin-left: 10px;
   margin-right: 10px;
-}
+} */
 
 /* scroll to top btn */
 
@@ -449,6 +481,15 @@ figcaption {
   .who__img {
     margin-top: 0;
     margin-left: 20px;
+  }
+
+  .alumni {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .alumni__block {
+    max-width: 400px;
+    justify-content: flex-start;
   }
 }
 

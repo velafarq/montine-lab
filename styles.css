@@ -321,7 +321,7 @@ body {
 
 .who p {
   /* margin-bottom: 5px; */
-  text-align: justify;
+  text-align: left;
 }
 .who__blurb {
   margin-top: 10px;
@@ -479,6 +479,9 @@ figcaption {
 }
 
 @media only screen and (min-width: 600px) {
+  .who p {
+    text-align: justify;
+  }
   .who__block {
     flex-direction: row;
     align-items: flex-start;

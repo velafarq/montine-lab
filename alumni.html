@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../styles.css" />
     <link rel="stylesheet" href="./styles.css" />
     <link rel="shortcut icon" type="image/png" href="./favicon.png" />
     <link
@@ -12,19 +13,16 @@
       integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
       crossorigin="anonymous"
     />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
       rel="stylesheet"
     />
-    <title>Montine Lab</title>
-    <meta
-      name="description"
-      content="The focus of the Montine Lab is on the structural and molecular bases of cognitive impairment with the goal of defining key pathogenic steps and thereby new therapeutic targets."
-    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Montine Lab | Alumni</title>
   </head>
 
-  <body class="home-body">
+  <body>
     <header class="header" role="banner">
       <h1 class="header__site-name nav-item collapse-title">
         <a href="./index.html" class="header__site-name nav-item"
@@ -76,13 +74,19 @@
         </ul>
       </nav>
     </header>
-    <main class="home-main">
-      <div class="home__site-name">
-        <h1 class="home__site-name__title">Montine Lab</h1>
-        <h2 class="home__site-name__subtitle">
-          Department of Pathology | Stanford University
-        </h2>
-      </div>
+    <main class="main">
+      <h1 class="main__title">Alumni</h1>
+      <section class="alumni">
+        <div class="alumni__block" id="batchelder">
+          <img
+            src="./assets/people/tess-batchelder.JPG"
+            alt="Tess Batchelder"
+            class="alumni__img"
+          />
+
+          <p class="alumni__name">Tess Batchelder</p>
+        </div>
+      </section>
     </main>
     <footer class="footer">
       <p class="footer__copyright">&copy; 2018 Montine Lab</p>
@@ -93,7 +97,6 @@
         </p>
       </div>
     </footer>
-
     <script src="./index.js"></script>
   </body>
 </html>

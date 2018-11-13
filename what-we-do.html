@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="../styles.css" />
     <link rel="shortcut icon" type="image/png" href="./favicon.png" />
     <link
       rel="stylesheet"
@@ -12,19 +13,15 @@
       integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz"
       crossorigin="anonymous"
     />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link
       href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
       rel="stylesheet"
     />
-    <title>Montine Lab</title>
-    <meta
-      name="description"
-      content="The focus of the Montine Lab is on the structural and molecular bases of cognitive impairment with the goal of defining key pathogenic steps and thereby new therapeutic targets."
-    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <title>Montine Lab | What We Do</title>
   </head>
 
-  <body class="home-body">
+  <body>
     <header class="header" role="banner">
       <h1 class="header__site-name nav-item collapse-title">
         <a href="./index.html" class="header__site-name nav-item"
@@ -76,13 +73,31 @@
         </ul>
       </nav>
     </header>
-    <main class="home-main">
-      <div class="home__site-name">
-        <h1 class="home__site-name__title">Montine Lab</h1>
-        <h2 class="home__site-name__subtitle">
-          Department of Pathology | Stanford University
-        </h2>
-      </div>
+    <main class="main">
+      <h1 class="main__title">What We Do</h1>
+      <section class="what-we-do">
+        <div class="what-we-do__txt">
+          <p>
+            The focus of the Montine Laboratory is on the structural and
+            molecular bases of cognitive impairment with the goal of defining
+            key pathogenic steps and thereby new therapeutic targets.
+          </p>
+          <p>
+            The Montine Laboratory addresses these prevalent, unmet medical
+            needs through a combination of neuropathology, biomarker development
+            and application early in the course of disease, and experimental
+            studies that test hypotheses concerning specific mechanisms of
+            neuron injury and approaches to neuroprotection.
+          </p>
+        </div>
+        <div>
+          <img
+            src="./assets/V2_Brain disease microglia.jpg"
+            class="what-we-do__img"
+            alt=""
+          />
+        </div>
+      </section>
     </main>
     <footer class="footer">
       <p class="footer__copyright">&copy; 2018 Montine Lab</p>
@@ -93,7 +108,6 @@
         </p>
       </div>
     </footer>
-
     <script src="./index.js"></script>
   </body>
 </html>

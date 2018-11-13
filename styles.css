@@ -158,7 +158,7 @@ body {
 }
 
 .home-body {
-  background: url("./assets/Brain_processed_multi-cream_bckg_Fotor.jpg")
+  background: url("./assets/Brain_processed_multi-cream_bckg_Fotor-2.jpg")
     no-repeat center center fixed;
   /* background-image: url("./assets/Brain_processed_cream_bckg_sharpened_Fotor.jpg"); */
 
@@ -378,7 +378,7 @@ figcaption {
 
 .who__project-img {
   width: 100%;
-  max-width: 500px;
+  max-width: 550px;
   height: auto;
   padding-right: 10px;
 }

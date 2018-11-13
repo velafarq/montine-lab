@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Roboto Condensed", sans-serif;
+  /* font-family: "Roboto Condensed", sans-serif; */
 }
 body {
   font-family: "Montserrat", sans-serif;
@@ -293,7 +293,7 @@ body {
 }
 
 .who:last-child {
-  margin-bottom: 25px;
+  margin-bottom: 250px;
 }
 
 .who__group-img {
@@ -332,9 +332,9 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding-top: 30px;
-  margin-top: -90px;
-  padding-top: 300px;
+  /* padding-top: 30px; */
+  margin-top: 210px;
+  padding-top: 100px;
 }
 .who__block__group {
   display: flex;

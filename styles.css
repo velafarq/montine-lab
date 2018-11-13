@@ -250,7 +250,21 @@ body {
 /* who page */
 
 .fa-twitter {
+  color: #1ca0f298;
+}
+.fa-twitter:hover {
   color: #1ca1f2;
+}
+
+.fa-envelope {
+  color: #292d3fbe;
+}
+
+a {
+  text-decoration: none;
+}
+.fa-envelope:hover {
+  color: #292d3f;
 }
 .who {
   display: flex;

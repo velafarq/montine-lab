@@ -333,8 +333,12 @@ body {
   justify-content: space-between;
   align-items: center;
   /* padding-top: 30px; */
-  margin-top: 210px;
-  padding-top: 100px;
+  margin-top: 90px;
+  padding-top: 90px;
+}
+.who__first {
+  margin-top: 0px;
+  padding-top: 90px;
 }
 .who__block__group {
   display: flex;
@@ -478,6 +482,12 @@ figcaption {
   .who__block {
     flex-direction: row;
     align-items: flex-start;
+    margin-top: 210px;
+    padding-top: 100px;
+  }
+  .who__first {
+    margin-top: 10px;
+    padding-top: 90px;
   }
 
   .who__list {

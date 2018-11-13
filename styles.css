@@ -136,18 +136,6 @@ body {
 }
 
 .main {
-<<<<<<< HEAD
-  background-color: rgba(66, 29, 167, 0.774);
-  height: 100vh;
-  width: 100vw;
-  color: white;
-  font-size: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  text-align: center;
-=======
   margin: auto;
   margin-top: 140px;
 
@@ -463,7 +451,6 @@ figcaption {
 
 #myBtn:hover {
   background-color: #f5805c;
->>>>>>> gh-pages
 }
 
 .footer {

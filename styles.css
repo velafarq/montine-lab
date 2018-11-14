@@ -116,7 +116,8 @@ body {
   justify-content: center;
   top: 80;
   right: 0;
-  background-color: #292d3fe3;
+  background: #292d3f;
+  background: #292d3fe3;
   width: 100vw;
   height: 100vh;
   padding-bottom: 80px;

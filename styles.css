@@ -154,7 +154,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  flex: 1;
+  flex: 1 0 auto;
   text-align: center;
   min-height: 400px;
 }

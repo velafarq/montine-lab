@@ -15,8 +15,10 @@ window.onscroll = function() {
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     document.getElementById("myBtn").style.display = "block";
+    document.getElementById("header").classList.add("box-shadow");
   } else {
     document.getElementById("myBtn").style.display = "none";
+    document.getElementById("header").classList.remove("box-shadow");
   }
 }
 

@@ -35,7 +35,10 @@
   </head>
 
   <body>
-    <header class="header" role="banner">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+    <header class="header" role="banner" id="header">
       <h1 class="header__site-name nav-item collapse-title">
         <a href="./index.html" class="header__site-name nav-item"
           >Montine Lab</a
@@ -88,28 +91,75 @@
     </header>
     <main class="main">
       <h1 class="main__title">Contact Us</h1>
+
       <section class="contact">
-        <div class="contact__block">
-          <h4>The Montine Lab</h4>
-          <p>Department of Pathology</p>
-          <p>300 Pasteur Dr Rm L216</p>
-          <p>Stanford, CA 94305</p>
+        <div class="contact-details">
+          <img
+            src="./assets/maps/stanford.jpg"
+            alt="Stanford Campus"
+            class="contact__img"
+          />
+
+          <div class="contact__text">
+            <div class="contact__block">
+              <h4>The Montine Lab</h4>
+              <p>Department of Pathology</p>
+              <p>300 Pasteur Dr Rm L216</p>
+              <p>Stanford, CA 94305</p>
+            </div>
+            <div class="contact__block">
+              <h4>Thomas Montine</h4>
+              <p>Department of Pathology</p>
+              <p>300 Pasteur Dr Rm L235</p>
+              <p>MC 5324</p>
+              <p>Stanford, CA 94305</p>
+              <p>tmontine@stanford.edu</p>
+            </div>
+            <div class="contact__block">
+              <h4>Alternate Contact</h4>
+              <p>Roomana Patel</p>
+              <p>Executive Assistant</p>
+              <p>romana@stanford.edu</p>
+              <p>(650) 725-9352 (office)</p>
+            </div>
+          </div>
         </div>
-        <div class="contact__block">
-          <h4>Thomas Montine</h4>
-          <p>Department of Pathology</p>
-          <p>300 Pasteur Dr Rm L235</p>
-          <p>MC 5324</p>
-          <p>Stanford, CA 94305</p>
-          <p>tmontine@stanford.edu</p>
-        </div>
-        <div class="contact__block">
-          <h4>Alternate Contact</h4>
-          <p>Roomana Patel</p>
-          <p>Executive Assistant</p>
-          <p>romana@stanford.edu</p>
-          <p>(650) 725-9352 (office)</p>
-        </div>
+      </section>
+      <section class="maps">
+        <!--
+          <a class="lightbox" href="#campus-img">
+            <img
+              src="./assets/maps/lane-building-map.PNG"
+              alt="Stanford Campus Building Map - Montine Lab"
+              class="maps__campus-img"
+            />
+          </a>
+        -->
+
+        <!-- <div class="lightbox-target" id="campus-img"> </div> -->
+        <img
+          src="./assets/maps/lane-building-map.PNG"
+          alt="Stanford Campus Building Map - Montine Lab"
+          class="maps__campus-img"
+        />
+        <!-- <a href="#" class="lightbox-close"></a> -->
+
+        <!--
+          <a class="lightbox" href="#building-img">
+            <img
+              src="./assets/maps/office-and-lab-map.jpg"
+              alt="Stanford University Montine Lab office and lab building map"
+              class="maps__building-img"
+            />
+          </a>
+        -->
+        <!-- <div class="lightbox-target" id="building-img"></div> -->
+        <img
+          src="./assets/maps/office-and-lab-map.jpg"
+          alt="Stanford University Montine Lab office and lab building map"
+          class="maps__building-img"
+        />
+        <!-- <a href="#" class="lightbox-close"></a> -->
       </section>
     </main>
     <footer class="footer">

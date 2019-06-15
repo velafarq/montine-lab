@@ -319,8 +319,7 @@ a {
 .alumni__img {
   width: 100%;
   max-width: 250px;
-  height: 100%;
-  flex: 1;
+  height: auto;
   margin-top: 20px;
   /* border: 1px solid #ddd; */
   /* border-radius: 4px; */
@@ -341,11 +340,8 @@ a {
 .who__group-img {
   width: 100%;
   max-width: 800px;
-  height: 100%;
-
-  /* border: 1px solid #ddd; */
+  height: auto;
   border-radius: 4px;
-  /* padding: 5px; */
 }
 
 .who__list {
